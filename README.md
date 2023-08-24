@@ -7,6 +7,8 @@
 [![Slack Status](https://img.shields.io/badge/slack-join_chat-white.svg?logo=slack&style=social)](https://knative.slack.com)
 [![codecov](https://codecov.io/gh/knative/client/branch/main/graph/badge.svg)](https://codecov.io/gh/knative/client)
 
+[![Open in DevPod!](https://devpod.sh/assets/open-in-devpod.svg)](https://devpod.sh/open#https://github.com/mpetason/knative-client)
+
 The Knative client `kn` is your door to the [Knative](https://knative.dev)
 world. It allows you to create Knative resources interactively from the command
 line or from within scripts.
