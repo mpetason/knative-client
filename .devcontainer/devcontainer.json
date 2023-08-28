@@ -11,7 +11,9 @@
 	  }
 	},
 
-	"postCreateCommand": ["/bin/sh", "-c", "/bin/sh ./.devcontainer/postCreateCommand.sh"],
+	"remoteEnv": { "HOME": "" },
+
+	"postCreateCommand": "./.devcontainer/postCreateCommand.sh",
 
 	"customizations": {
 	  "devpod": {
