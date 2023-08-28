@@ -11,6 +11,8 @@
 	  }
 	},
 
+	"postCreateCommand": "./.devcontainer/postCreateCommand.sh",
+
 	"customizations": {
 	  "devpod": {
 		"prebuildRepository": "ghcr.io/loft-sh/devpod-kubebuilder-template"
