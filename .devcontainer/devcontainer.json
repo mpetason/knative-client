@@ -1,5 +1,5 @@
 {
-	"name": "KubeBuilder Example",
+	"name": "Knative Client Example",
 	"build": {
 	  "dockerfile": "./Dockerfile"
 	},
@@ -15,7 +15,7 @@
 
 	"customizations": {
 	  "devpod": {
-		"prebuildRepository": "ghcr.io/loft-sh/devpod-kubebuilder-template"
+		"prebuildRepository": "ghcr.io/loft-sh/devpod-knative-client"
 	  }
 	}
   }
