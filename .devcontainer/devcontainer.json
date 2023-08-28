@@ -15,9 +15,9 @@
 
 	"postCreateCommand": "./.devcontainer/postCreateCommand.sh",
 
-	"customizations": {
-	  "devpod": {
-		"prebuildRepository": "ghcr.io/loft-sh/devpod-knative-client"
-	  }
-	}
+	// "customizations": {
+	//   "devpod": {
+	// 	"prebuildRepository": "ghcr.io/loft-sh/devpod-knative-client"
+	//   }
+	//}
   }
