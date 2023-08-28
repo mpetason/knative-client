@@ -11,7 +11,7 @@
 	  }
 	},
 
-	"postCreateCommand": "./.devcontainer/postCreateCommand.sh",
+	"postCreateCommand": ["/bin/sh", "-c", "/bin/sh ./.devcontainer/postCreateCommand.sh"],
 
 	"customizations": {
 	  "devpod": {
